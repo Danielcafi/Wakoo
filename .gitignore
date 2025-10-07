@@ -1,0 +1,15 @@
+# Node / Backend
+backend/node_modules/
+backend/npm-debug.log*
+backend/logs/
+backend/uploads/
+
+# Flutter
+build/
+.dart_tool/.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# OS/Editors.DS_Store
+Thumbs.db
+.vscode/.idea/
