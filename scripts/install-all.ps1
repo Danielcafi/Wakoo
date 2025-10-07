@@ -51,7 +51,7 @@ if (-not $SkipFlutter) {
     
     if (Get-Command flutter -ErrorAction SilentlyContinue) {
         $flutterVersion = flutter --version
-        Write-Host "✅ Flutter already installed" -ForegroundColor Green
+        Write-Host "✅ Flutter already installed: $flutterVersion" -ForegroundColor Green
     } else {
         Write-Host "Setting up Flutter..." -ForegroundColor Yellow
         
